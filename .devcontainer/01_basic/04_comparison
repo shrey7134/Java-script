@@ -1,0 +1,20 @@
+console.log("2">1);
+console.log("02">1);
+
+
+console.log(null>0);  //1 false
+console.log(null==0); //2 false
+console.log(null>=0); //3 true
+
+/* the reason is that an equality check == and comparison >,<,>=,<= work differently
+    comparison convert null to a number trating it as a 0 that's why (3) null>=0 is true and (1) null>0 is false
+*/
+
+console.log(undefined>0);  //1 false
+console.log(undefined==0); //2 false
+console.log(undefined>=0); //3 false
+
+
+//     ****************** strict check ******************
+
+console.log("2" === 2);
