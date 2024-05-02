@@ -56,3 +56,30 @@ console.log(typeof null);
 console.log(typeof true);
 console.log(typeof myFunction);
 console.log(typeof obj);
+
+
+// ************************************** Memory *******************************************
+
+//   stack(Primitive)                 heap(Non primitive)
+
+let name="shrey"
+let anotherName=name
+console.log(name);
+console.log(anotherName);
+anotherName="harsh"
+console.log(name);
+console.log(anotherName);
+
+
+//Referencing through heap
+
+let user1={
+    email:"user@.com",
+    upi:"u@ybl"
+}
+let user2=user1;
+console.log(user1);
+console.log(user2);
+user2.email="123456"
+console.log(user1);
+console.log(user2);
