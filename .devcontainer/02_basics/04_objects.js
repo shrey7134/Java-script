@@ -79,3 +79,17 @@ console.log(instructor);
     {},
     {}
 ]
+
+const employee={
+    id:1,
+    name:"shrey",
+    salary:99999,
+    email:"shrey@gmail.com"
+
+}
+
+console.log(employee.email);
+
+const {email:em}=employee
+// console.log(email);
+console.log(em);
