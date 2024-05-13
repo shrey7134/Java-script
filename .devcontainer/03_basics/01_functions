@@ -20,3 +20,35 @@ function loginUserMessage(Username="sam"){     //default value
 }
 console.log(loginUserMessage("shrey"));
 console.log(loginUserMessage());
+
+
+//########################## rest operator(...) ################################
+
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(200,300,400,500));
+
+
+//Passing object
+
+const user={
+    userName:"shrey",
+    id:1
+}
+function handleObject(anyObject){
+    console.log(`name of user is ${anyObject.userName} and its id is ${anyObject.id}`);
+}
+// handleObject(user)
+handleObject({
+    userName:"sam",
+    id:4
+})
+
+//Passing array
+
+const arr=[1,2,3,4,5,65,7]
+function secondValue(getValue){
+    console.log(getValue[2]);
+}
+secondValue(arr)
