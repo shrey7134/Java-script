@@ -1,0 +1,22 @@
+function myName(){
+    console.log("s")
+    console.log("h")
+    console.log("r")
+    console.log("e")
+    console.log("y")
+}
+// myName()
+// myName
+
+function addTwoNumbers(n1,n2){
+    let result=n1+n2;
+    return result
+}
+result=addTwoNumbers(3,5)
+console.log(result);
+
+function loginUserMessage(Username="sam"){     //default value
+    return `${Username} just logged in`
+}
+console.log(loginUserMessage("shrey"));
+console.log(loginUserMessage());
