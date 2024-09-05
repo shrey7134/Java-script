@@ -53,13 +53,22 @@ console.log(str);
 
 //  *****************************  operations *****************************
 
-console.log(2+2);
-console.log(2-2);
-console.log(2*2);
-console.log(2**3);
-console.log(2/2);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
 
-let str1="hello"
-let str2=" shrey"
-let str3=str1+str2;
-console.log(str3);
+// let str1="hello"
+// let str2=" shrey"
+// let str3=str1+str2;
+// console.log(str3);
+
+let x=("1"+2+3)
+console.log(x);
+console.log(typeof x);
+
+let y=1+2+"3"
+console.log(y);
+console.log(typeof y);
+
